@@ -9,7 +9,6 @@ Phase 4 - Data analysis and visualization in R
 #################################################
 
 Phase 1 - Preprocessing of metatranscriptomic data
-Folder with scripts: Metatranscriptome\Phase_1_preprocessing_RNA_seq_data
 
 Step 1 - Initial quality check - Run: Step_1_RunFastqc.sh
 
@@ -25,7 +24,6 @@ Step 4 - Remove rRNA sequences using SortmeRNA - Run: Step_4_SortmeRNA.sh
 #################################################
 
 Phase 2 - Preprocessing metagenomic data and generating metagenome assembled genomes (MAGs)
-Folder with scripts: Metagenome\Phase_2_preprocessing_metagenomic_data
 
 Step 5 - Initial quality check - Run: Step_5_RunFastqc.sh
 
@@ -48,7 +46,6 @@ Step 12 - Annotate with Prokka - Run: Step_12_prokka_on_MAGs.sh
 #################################################
 
 Phase 3 - Mapping transcripts to MAGs
-Folder with scripts: Combined_analysis\Phase_3_mapping_transcripts_to_MAGs
 
 Step 13 - Preparing combined Salmon reference from the coding sequences (from prokka) of the MAGs - Run: 	Step13A_append_prefix_make_salmon_index_script.sh
 	Step13B_combine_faa.sh
@@ -59,7 +56,6 @@ Step 14 - Running Salmon for transcription estimates per MAG coding sequence - R
 #################################################
 
 Phase 4 - Data analysis and visualization in R
-Folder with scripts: Combined_analysis\Phase_4_data_analysis_and_visualization_in_R
 
 Primary analysis: MAG_Dependent_Transcriptome_10_1_25.Rmd
 
